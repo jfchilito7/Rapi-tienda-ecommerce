@@ -14,6 +14,7 @@ body {
   background: #233a95;
 }
 
+
 .headerWrapper .top-strip {
   padding: 8px 0px;
 }
@@ -33,8 +34,119 @@ body {
   width: 100%;
 }
 
-.headerWrapper .header .part2 .countryDrop {
-  width: 150px;
-  height: 80px;
-  min-width: 150px;
+.part2 .countryDrop {
+  width: 170px;
+  height: 60px;
+  min-width: 170px;
+  padding: 10px 15px;
+}
+
+.part2 .countryDrop {
+  text-align: left;
+  justify-content: flex-start !important;
+  color: #000 !important;
+  border: rgba(0,0,0,0.2) solid 1px !important;
+  border-radius: 7px;
+}
+
+
+.part2 .countryDrop .label {
+  font-size: 12px !important;
+  text-transform: capitalize !important;
+  color: rgba(0,0,0,0.4) !important;
+  line-height: 16px;
+}
+
+.part2 .countryDrop .name {
+  font-size: 14px !important;
+  text-transform: capitalize !important;
+  color: #233a95 !important;
+  font-weight: 700 !important;
+  line-height: 16px;
+}
+
+.part2 .countryDrop span.ml-auto svg {
+  opacity: 0.7;
+}
+
+header .headerSearch {
+  width: 60%;
+  height: 60px;
+  background: #f3f4f7;
+  padding: 10px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+header .headerSearch input::-webkit-input-placeholder {
+  color: rgba(0,0,0,0.6);
+}
+
+.headerSearch input {
+  width: 100%;
+  height: 40px;
+  border: 0px;
+  padding: 0px 20px;
+  background: transparent;
+  outline: none;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+}
+
+.headerSearch button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  z-index: 100;
+  min-width: 40px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #000;
+}
+
+.headerSearch button svg {
+  font-size: 25px;
+}
+
+.part3 .circle {
+  min-width: 50px;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.1);
+  color: #000;
+}
+
+.part3 .circle svg {
+  font-size: 22px;
+}
+
+.cartTab .price {
+  font-size: 18px;
+  color: rgba(0,0,0,0.8);
+  font-weight: 700;
+}
+
+.cartTab button{
+  background: #fff1ee;
+}
+
+.cartTab button svg {
+  color: #ea2b0f;
+}
+
+.cartTab .count {
+  position: absolute;
+  top: -6px;
+  right: -4px;
+  background: #ea2b0f;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  width: 20px;
+  height: 20px;
 }
